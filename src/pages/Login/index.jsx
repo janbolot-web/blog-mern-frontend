@@ -9,7 +9,6 @@ import styles from './Login.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAuth, selectIsAuth } from '../../redux/slices/auth';
 import { Navigate } from 'react-router-dom';
-import e from 'cors';
 
 export const Login = () => {
   const isAuth = useSelector(selectIsAuth);
